@@ -1,0 +1,101 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content:baseline;
+}
+
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: grey 1px solid;
+    border-color: rgb(201, 198, 189);
+    border-radius: 5px;
+}
+
+.header{
+    display: flex;
+    color: black ;
+    font-size:20px;
+    background-color:whitesmoke;
+    border-bottom: rgb(201, 198, 189) 0.1px solid;
+    margin:0;
+}
+    
+
+h1{
+    margin-left: 22px;
+}
+
+h3{
+    font-size: 1px;
+}   
+    
+
+.payment{
+
+    background: grey;
+   
+}
+
+    
+
+
+.alertaroja{
+    margin:30px 15px;
+    color:rgb(255, 97, 113);
+    background:#f2dcdb;
+    border:#f5cbc9 1px solid;
+    border-radius: 4px;
+    padding:10px;
+}
+
+#card{
+   margin-top: 5px;
+   margin-bottom: 15px;
+   margin-left: 2px;
+}
+
+.form4{
+    margin:1px;
+}
+
+.footer-form {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.paymentMethods_icons {
+    display: flex;
+    gap: 20px;
+    background-color: rgb(189, 187, 181);
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+p {
+    color: rgb(196, 204, 198);
+}
+
+.message {
+    width: 49%;
+}
+
+textarea {
+    border: rgb(201, 198, 189) 1px solid;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.botones {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-top: 1px;
+    border-top: rgb(201, 198, 189) 0.1px solid;
+}
+
+
+
+
